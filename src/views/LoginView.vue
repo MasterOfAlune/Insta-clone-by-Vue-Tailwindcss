@@ -1,6 +1,6 @@
 <template>
 
-    <div class='mobile-photos mr-8 bg-[url("https://i.ibb.co/ZHcVs5p/It-Tndl-ZM2n2.png")] w-[23.75rem] h-[36.25rem] max-md:hidden' style="background-size: 468.32px 634.15px; background-position: -46px 0;">
+    <div class='mobile-photos mr-8 bg-[url("https://i.ibb.co/ZHcVs5p/It-Tndl-ZM2n2.png")] w-[23.75rem] h-[36.25rem] max-md:hidden mt-20' style="background-size: 468.32px 634.15px; background-position: -46px 0;">
     <div class="all-photos h-12 w-full relative">
         <img src="https://i.ibb.co/0nhMM68/screenshot1.png" alt="all-photos" id="im1" class="hidden absolute top-0 right-0 mt-6 mr-4">
         <img src="https://i.ibb.co/NmWmSPr/screenshot2.png" alt="all-photos" id="im2" class="hidden absolute top-0 right-0 mt-6 mr-4">
@@ -9,7 +9,7 @@
     </div>
     </div>
 
-    <div class="login-div h-[36.25rem] w-[21.875rem] -center-col max-md:scale-1.10">
+    <div class="login-div h-[36.25rem] w-[21.875rem] -center-col max-md:scale-1.10 mt-20">
         
         <div class="login-form h-[25rem] w-full flex items-center flex-col justify-end border border-gray-300 mt-3">
 
@@ -49,7 +49,7 @@
         </div>
         
         <div class="new-account h-16 w-full -center-col border border-gray-300 mt-3 text-sm">
-            <p> Don't have an account? <span style="color: #0095f6"> Sign up </span> </p>
+            <p> Don't have an account? <span style="color: #0095f6"> <router-link :to="{ name : 'register' }"> Sign up </router-link> </span> </p>
         </div>
         
         <div class="get-app h-[6.25rem] w-full flex justify-evenly items-center flex-col">

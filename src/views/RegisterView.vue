@@ -1,6 +1,6 @@
 <template>
 
-    <div class="login-div h-[51.5remrem] w-[21.875rem] -center-col max-md:scale-1.10">
+    <div class="login-div h-[51.5remrem] w-[21.875rem] -center-col max-md:scale-1.10 mt-20">
 
         <div class="login-form h-[42rem] w-full flex-col flex justify-evenly items-center border border-gray-300">
 
@@ -67,7 +67,8 @@
         </div>
 
         <div class="new-account h-16 w-full -center-col border border-gray-300 mt-3 text-sm">
-            <p> Have an account? <span style="color: #0095f6"> Log in </span> </p>
+            <p> Have an account? <span style="color: #0095f6"> <router-link :to="{ name : 'login' }"> Log in </router-link> 
+            </span> </p>
         </div>
 
         <div class="get-app h-[6.25rem] w-full flex justify-evenly items-center flex-col">

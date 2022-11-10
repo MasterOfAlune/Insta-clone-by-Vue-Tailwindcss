@@ -1,5 +1,5 @@
 <template>
-  <div class="story-div h-32 border border-slate-200 rounded-md flex justify-start items-center">
+  <div class="story-div h-32 border border-slate-200 rounded-md flex justify-start items-center max-sm:scale-75">
     <div class="fixed-story-div h-24 w-16">
         <div class="flexable-stories  h-24 w-16 flex justify-center items-center flex-col  ml-5">
             <div class="story-img-active  w-16 flex justify-center items-center border-2 rounded-full h-16">

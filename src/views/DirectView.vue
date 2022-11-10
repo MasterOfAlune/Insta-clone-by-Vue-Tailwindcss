@@ -1,5 +1,5 @@
 <template>
-  <div class="direct w-full h-full -center">
+  <div class="direct w-full h-full -center max-sm:scale-75 sm:p-20">
 
     <!-- Direct Left -->
     <div class="left-direct flex max-md:w-20 -center-col w-[21.875rem]" style=" height: 600px">
@@ -133,7 +133,7 @@
               <i class="fa-regular fa-face-smile text-2xl"></i>
             </div>
             <div class="right-direct-input h-10 flex justify-center items-center w-full">
-              <input type="text" placeholder="Message..." class="max-lg:w-[18rem] w-96 h-10 bg-transparent outline-none lg:pl-2">
+              <input type="text" placeholder="Message..." class="max-lg:w-[18rem] w-96 h-10 bg-transparent outline-none max-sm:pl-2 lg:pl-2">
             </div>
             <div class="right-direct-side-icons-input max-lg:hidden mr-3 h-10 flex justify-center items-center">
               <div class="right-directphoto-icon-input w-10 h-10 flex justify-center items-center">

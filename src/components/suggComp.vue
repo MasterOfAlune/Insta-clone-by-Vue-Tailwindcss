@@ -1,6 +1,6 @@
 <template>
 
-  <div class="full-w-switch" v-if="toggleSwitch" ref="w_switch">
+  <div class="full-w-switch z-10" v-if="toggleSwitch" ref="w_switch">
     <div class="middle-screen-fixed-switch h-64 w-96 rounded-xl -center-col overflow-hidden bg-white">
         <div class="title-and-close w-96 h-10 flex justify-end items-center text-base font-semibold font-sans border-b border-gray-300">
           <div class="content-inside w-80 -center">
@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div class="full-w-unfollow" v-if="toggle_w_unfollow" ref="w_unfollow">
+  <div class="full-w-unfollow z-10" v-if="toggle_w_unfollow" ref="w_unfollow">
     <div class="unfollow-div h-[310px] w-[400px] border bg-white rounded-xl">
       <div class="fixed-unfo h-[214px] w-full flex flex-col justify-around items-center">
         <div class="img-unfollow mt-4">

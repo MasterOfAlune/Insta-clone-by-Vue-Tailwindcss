@@ -1,6 +1,6 @@
 <template>
 
-    <div class="full-w-threedots" v-if="toggle_w_threedots" ref="w_threedots">
+    <div class="full-w-threedots z-10" v-if="toggle_w_threedots" ref="w_threedots">
         <div class="threedots-fixed h-[384px] w-[400px] bg-white -center-col rounded-xl">
         <div class="single-choice h-12 w-full -center  border-b border-[219, 219, 219]">
             <p class="font-sans font-semibold text-sm text-red-500"> Report </p>
@@ -29,9 +29,9 @@
         </div>
     </div>
 
-    <div class="warp-reel">
+    <div class="warp-reel max-sm:w-[390px] -center-col ">
         <!-- First reel -->
-        <div class="reel h-full border border-slate-200 rounded-md flex -center flex-col mt-5">
+        <div class="reel h-full border border-slate-200 rounded-md flex -center flex-col mt-5 max-sm:scale-75">
                 <div class="person-de h-14 flex justify-center items-center">
                     <div class="reel-icons-img h-10 w-10 flex justify-center items-center">
                         <img src="https://i.pinimg.com/originals/dc/04/5f/dc045f68cbb786ec97c1f7281dc83643.jpg" alt="reel-icon-img" class="rounded-full h-8 w-8">
@@ -95,7 +95,7 @@
         </div>
 
         <!-- Sec reel -->
-        <div class="reel h-full border border-slate-200 rounded-md flex justify-center items-center flex-col mt-5">
+        <div class="reel h-full border border-slate-200 rounded-md flex justify-center items-center flex-col mt-5 max-sm:scale-75">
                 <div class="person-de h-14 flex justify-center items-center">
                     <div class="reel-icons-img-unactive h-10 w-10 flex justify-center items-center">
                         <img src="https://i.pinimg.com/originals/cd/d1/96/cdd196f17b42b38564b307b0a4a09134.jpg" alt="reel-icon-img" class="rounded-full h-8 w-8">
